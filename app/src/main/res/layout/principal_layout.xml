@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@android:dimen/app_icon_size"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginVertical="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/email"
+        android:drawableLeft="@drawable/email1"
+        android:drawablePadding="@dimen/margin"
+        />
+    <EditText
+        android:layout_marginVertical="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/username"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="@dimen/margin"
+        />
+    <EditText
+        android:layout_marginVertical="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/password"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="@dimen/margin"
+        />
+    <Button
+        android:layout_marginVertical="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/button"
+        android:textColor="@color/fondo"
+        android:textSize="@dimen/text"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
